@@ -16,7 +16,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const response = await axios.post(
       'https://api.openai.com/v1/chat/completions',
       {
-        model: 'gpt-4',
+        model: 'gpt-3.5-turbo',
         messages: [
           { role: 'system', content: 'Sen yaratıcı bir çocuk hikayeleri yazarı gibisin. Hikayeleri kısa, sevimli ve öğretici yap.' },
           { role: 'user', content: `Şu tanıma göre bir çocuk masalı yaz: ${prompt}` },
