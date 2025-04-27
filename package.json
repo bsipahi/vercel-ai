@@ -1,0 +1,25 @@
+{
+  "name": "vercel-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsipahi/vercel-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bsipahi/vercel-ai/issues"
+  },
+  "homepage": "https://github.com/bsipahi/vercel-ai#readme",
+  "dependencies": {
+    "@vercel/node": "^5.1.14",
+    "axios": "^1.9.0"
+  }
+}
